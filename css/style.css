@@ -5,6 +5,7 @@
     --secundario: #0097A7;
     --gris: #757575;
     --grisClaro: #DFE9F3;
+    --fuente: 'Krub', sans-serif;
 }
 
 html {
@@ -13,6 +14,7 @@ html {
 
 body {
     font-size: 1.6rem;
+    font-family: var(--fuente);
 }
 
 /** Tipografía con selector de elemento**/
