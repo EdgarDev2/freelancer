@@ -55,3 +55,42 @@ h1, h2, h3 {
     color: var(--primario);
 }
 
+.contenedor {
+    max-width: 120rem;
+    margin: 0 auto;
+}
+
+/** NAVEGACIÓN PRINCIPAL **/
+.bg-navegacion {
+    background-color: var(--secundario);
+}
+
+/** 30 Display: inline y block **/
+/** Todos los elementos en el html ya tienen ya tienen un display de estos dos por default **/
+.navegacion-principal {
+    display: flex;
+    flex-direction: column;
+}
+
+/** Para pantallas laps **/
+@media (min-width: 768px) {
+    .navegacion-principal {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.navegacion-principal a {
+    display: block;
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover {
+    background-color: var(--primario);
+    color: var(--oscuro);
+}
