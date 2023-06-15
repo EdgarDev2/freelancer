@@ -1,3 +1,12 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;
+    --grisClaro: #DFE9F3;
+}
+
 html {
     font-size: 62.5%;
 }
@@ -24,6 +33,7 @@ h1, h2, h3 {
 }
 
 /** Titulos con selector de descendencia**/
-.titulo span{
+.titulo span {
     font-size: 2rem;
 }
+
