@@ -37,3 +37,19 @@ h1, h2, h3 {
     font-size: 2rem;
 }
 
+/** Especificidad y el porque "HOJAS DE ESTILO EN CASCADA"**/
+.titulo span {
+    font-size: 2rem;
+    color: var(--gris);
+}
+
+.titulo span {
+    font-size: 2rem;
+    color: var(--secundario) !important;
+}
+
+.titulo span {
+    font-size: 2rem;
+    color: var(--primario);
+}
+
