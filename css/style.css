@@ -94,3 +94,10 @@ h1, h2, h3 {
     background-color: var(--primario);
     color: var(--oscuro);
 }
+
+/**Contenido hero**/
+.hero{
+    background-image: url("../img/hero.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
