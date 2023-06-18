@@ -20,6 +20,7 @@ html {
 body {
     font-size: 1.6rem;
     font-family: var(--fuente);
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%); /**obtengo colores del custom properties**/
 }
 
 /** Tipografía con selector de elemento**/
