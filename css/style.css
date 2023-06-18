@@ -86,6 +86,13 @@ h1, h2, h3 {
     }
 }
 
+.sombra {
+    box-shadow: 0px 5px 15px 0px rgba(112,112,112,0.48);
+    background-color: var(--blanco);
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
 /** NAVEGACIÓN PRINCIPAL **/
 .bg-navegacion {
     background-color: var(--secundario);
@@ -129,6 +136,7 @@ h1, h2, h3 {
     height: 41rem;
     padding: 2.8rem;
     position: relative;
+    margin-bottom: 2rem;
 }
 
 .contenido-hero {
