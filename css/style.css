@@ -79,6 +79,7 @@ h1, h2, h3 {
     border-radius: .5rem;
     width: 90%;
     text-align: center;
+    border: none;
 }
 
 @media (min-width: 768px) {
@@ -94,8 +95,27 @@ h1, h2, h3 {
     border-radius: 1rem;
 }
 
+/** UTILIDADES- ***/
+.width-100 {
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+    .width-100 {
+        width: auto;
+    }
+}
+
+.flex {
+    display: flex;
+}
+
+.alinear-derecha {
+    justify-content: flex-end;
+}
+
 /** NAVEGACIÓN PRINCIPAL **/
-.bg-navegacion {
+.bg-navegacion { /** Es una utilidad**/
     background-color: var(--secundario);
 }
 
@@ -223,5 +243,36 @@ h1, h2, h3 {
     margin-bottom: 2rem;
     color: var(--primario);
 }
+
+.contenedor-campos {
+
+}
+
+.campos {
+    margin-bottom: 1rem;
+}
+
+.campos label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
+}
+
+.campos input[type="text"],
+.campos input[type="tel"],
+.campos input[type="email"],
+.campos textarea[id="mensaje"] {
+    width: 100%; /**Le indico que tome todo el espacio disponible **/
+    border: none;
+    padding: 1.5rem;
+    border-radius: .5rem;
+}
+
+/**.enviar .boton {
+    width: 100%;
+}**/
+
+
 
 
